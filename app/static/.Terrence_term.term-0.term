@@ -1,0 +1,197 @@
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ cd.[K ../
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  demo_cli.py      main.py           [01;34mstatic[0m       test.py        [01;34mtrained_models[0m  utils_main.py  weights_location
+Terrence_term.term              [00;36mdemo_output.wav[0m  requirements.txt  [01;34msynthesizer[0m  [01;34mtoolbox[0m        [00;36mtrump11.wav[0m     uwsgi.ini      wsgi.py
+[01;34m__pycache__[0m                     [01;34mencoder[0m          st_app.py         [01;34mtemplates[0m    [01;34mtrained_model[0m  [01;34mutils[0m           [01;34mvocoder[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ lscd ../[4Plspython main.pyls[K
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  demo_cli.py      main.py           [01;34mstatic[0m       test.py        [01;34mtrained_models[0m  utils_main.py  weights_location
+Terrence_term.term              [00;36mdemo_output.wav[0m  requirements.txt  [01;34msynthesizer[0m  [01;34mtoolbox[0m        [00;36mtrump11.wav[0m     uwsgi.ini      wsgi.py
+[01;34m__pycache__[0m                     [01;34mencoder[0m          st_app.py         [01;34mtemplates[0m    [01;34mtrained_model[0m  [01;34mutils[0m           [01;34mvocoder[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ lscd ../[4Plspython main.pyls[Kpython main.py[9Presetpython main.py[9Preset[K[K[K[K[Krm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  [01;34m__pycache__[0m  [01;34mencoder[0m  requirements.txt  [01;34mstatic[0m       [01;34mtemplates[0m  [01;34mtoolbox[0m        [01;34mtrained_models[0m  [01;34mutils[0m          uwsgi.ini  weights_location
+Terrence_term.term              demo_cli.py  main.py  st_app.py         [01;34msynthesizer[0m  test.py    [01;34mtrained_model[0m  [00;36mtrump11.wav[0m     utils_main.py  [01;34mvocoder[0m    wsgi.py
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  demo_cli.py      main.py           [01;34mstatic[0m       test.py        [01;34mtrained_models[0m  utils_main.py  weights_location
+Terrence_term.term              [00;36mdemo_output.wav[0m  requirements.txt  [01;34msynthesizer[0m  [01;34mtoolbox[0m        [00;36mtrump11.wav[0m     uwsgi.ini      wsgi.py
+[01;34m__pycache__[0m                     [01;34mencoder[0m          st_app.py         [01;34mtemplates[0m    [01;34mtrained_model[0m  [01;34mutils[0m           [01;34mvocoder[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  demo_cli.py      main.py           [01;34mstatic[0m       test.py        [01;34mtrained_models[0m  utils_main.py  weights_location
+Terrence_term.term              [00;36mdemo_output.wav[0m  requirements.txt  [01;34msynthesizer[0m  [01;34mtoolbox[0m        [00;36mtrump11.wav[0m     uwsgi.ini      wsgi.py
+[01;34m__pycache__[0m                     [01;34mencoder[0m          st_app.py         [01;34mtemplates[0m    [01;34mtrained_model[0m  [01;34mutils[0m           [01;34mvocoder[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ cd static
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ cd ../
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  demo_cli.py      main.py           [01;34mstatic[0m       test.py        [01;34mtrained_models[0m  utils_main.py  weights_location
+Terrence_term.term              [00;36mdemo_output.wav[0m  requirements.txt  [01;34msynthesizer[0m  [01;34mtoolbox[0m        [00;36mtrump11.wav[0m     uwsgi.ini      wsgi.py
+[01;34m__pycache__[0m                     [01;34mencoder[0m          st_app.py         [01;34mtemplates[0m    [01;34mtrained_model[0m  [01;34mutils[0m           [01;34mvocoder[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  [01;34m__pycache__[0m  [01;34mencoder[0m  requirements.txt  [01;34mstatic[0m       [01;34mtemplates[0m  [01;34mtoolbox[0m        [01;34mtrained_models[0m  [01;34mutils[0m          uwsgi.ini  weights_location
+Terrence_term.term              demo_cli.py  main.py  st_app.py         [01;34msynthesizer[0m  test.py    [01;34mtrained_model[0m  [00;36mtrump11.wav[0m     utils_main.py  [01;34mvocoder[0m    wsgi.py
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  [01;34m__pycache__[0m  [01;34mencoder[0m  requirements.txt  [01;34mstatic[0m       [01;34mtemplates[0m  [01;34mtoolbox[0m        [01;34mtrained_models[0m  [01;34mutils[0m          uwsgi.ini  weights_location
+Terrence_term.term              demo_cli.py  main.py  st_app.py         [01;34msynthesizer[0m  test.py    [01;34mtrained_model[0m  [00;36mtrump11.wav[0m     utils_main.py  [01;34mvocoder[0m    wsgi.py
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ cd static
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;35mduck2.gif[0m   jquery-1.9.1.min.js  nicepage.css      nicepage_new.js  voice_clone.js
+Home.css      Results.css         Tupac.css              [00;36mdemo_output.wav[0m               [01;34mimages[0m      jquery.js            nicepage.js       [01;35mpuppy.jpg[0m
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck.gif[0m                      [01;34mimages_new[0m  [01;35mloader.gif[0m           nicepage_new.css  text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;35mduck2.gif[0m   jquery-1.9.1.min.js  nicepage.css      nicepage_new.js  voice_clone.js
+Home.css      Results.css         Tupac.css              [00;36mdemo_output.wav[0m               [01;34mimages[0m      jquery.js            nicepage.js       [01;35mpuppy.jpg[0m
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck.gif[0m                      [01;34mimages_new[0m  [01;35mloader.gif[0m           nicepage_new.css  text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;35mduck2.gif[0m   jquery-1.9.1.min.js  nicepage.css      nicepage_new.js  voice_clone.js
+Home.css      Results.css         Tupac.css              [00;36mdemo_output.wav[0m               [01;34mimages[0m      jquery.js            nicepage.js       [01;35mpuppy.jpg[0m
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck.gif[0m                      [01;34mimages_new[0m  [01;35mloader.gif[0m           nicepage_new.css  text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.was[Kc
+rm: cannot remove 'demo_output.wac': No such file or directory
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wac[Kv
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;35mduck2.gif[0m   jquery-1.9.1.min.js  nicepage.css      nicepage_new.js  voice_clone.js
+Home.css      Results.css         Tupac.css              [00;36mdemo_output.wav[0m               [01;34mimages[0m      jquery.js            nicepage.js       [01;35mpuppy.jpg[0m
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck.gif[0m                      [01;34mimages_new[0m  [01;35mloader.gif[0m           nicepage_new.css  text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;35mduck2.gif[0m   jquery-1.9.1.min.js  nicepage.css      nicepage_new.js  voice_clone.js
+Home.css      Results.css         Tupac.css              [00;36mdemo_output.wav[0m               [01;34mimages[0m      jquery.js            nicepage.js       [01;35mpuppy.jpg[0m
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck.gif[0m                      [01;34mimages_new[0m  [01;35mloader.gif[0m           nicepage_new.css  text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;35mduck2.gif[0m   jquery-1.9.1.min.js  nicepage.css      nicepage_new.js  voice_clone.js
+Home.css      Results.css         Tupac.css              [00;36mdemo_output.wav[0m               [01;34mimages[0m      jquery.js            nicepage.js       [01;35mpuppy.jpg[0m
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck.gif[0m                      [01;34mimages_new[0m  [01;35mloader.gif[0m           nicepage_new.css  text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;35mduck2.gif[0m   jquery-1.9.1.min.js  nicepage.css      nicepage_new.js  voice_clone.js
+Home.css      Results.css         Tupac.css              [00;36mdemo_output.wav[0m               [01;34mimages[0m      jquery.js            nicepage.js       [01;35mpuppy.jpg[0m
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck.gif[0m                      [01;34mimages_new[0m  [01;35mloader.gif[0m           nicepage_new.css  text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css    Project.css         [0m[00;36mTrump_generated.wav[0m    Write-your-story-with-AI.css  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+Home.css      Results.css         Tupac.css              [01;35mduck.gif[0m                      [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Overview.css  Terrence_term.term  Tyler-the-Creator.css  [01;35mduck2.gif[0m                     jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   voice_clone.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ (base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ (base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ l;[Ks
+Eminem.css  Home.css      Project.css  Terrence_term.term   Tupac.css              Write-your-story-with-AI.css  [0m[01;35mduck.gif[0m   [01;34mimages[0m      jquery-1.9.1.min.js  [01;35mloader.gif[0m    nicepage.js       nicepage_new.js  text_gen.js
+[00;36mEminem.wav[0m  Overview.css  Results.css  [00;36mTrump_generated.wav[0m  Tyler-the-Creator.css  clone.js                      [01;35mduck2.gif[0m  [01;34mimages_new[0m  jquery.js            nicepage.css  nicepage_new.css  [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Home.css      Project.css  Terrence_term.term   Tupac.css              Write-your-story-with-AI.css  [0m[00;36mdemo_output.wav[0m  [01;35mduck2.gif[0m  [01;34mimages_new[0m           jquery.js   nicepage.css  nicepage_new.css  [01;35mpuppy.jpg[0m
+[00;36mEminem.wav[0m  Overview.css  Results.css  [00;36mTrump_generated.wav[0m  Tyler-the-Creator.css  clone.js                      [01;35mduck.gif[0m         [01;34mimages[0m     jquery-1.9.1.min.js  [01;35mloader.gif[0m  nicepage.js   nicepage_new.js   text_gen.js
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_po[K[Koutput.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Home.css      Project.css  Terrence_term.term   Tupac.css              Write-your-story-with-AI.css  [0m[01;35mduck.gif[0m   [01;34mimages[0m      jquery-1.9.1.min.js  [01;35mloader.gif[0m    nicepage.js       nicepage_new.js  text_gen.js
+[00;36mEminem.wav[0m  Overview.css  Results.css  [00;36mTrump_generated.wav[0m  Tyler-the-Creator.css  clone.js                      [01;35mduck2.gif[0m  [01;34mimages_new[0m  jquery.js            nicepage.css  nicepage_new.css  [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[01;35mduck.gif[0m   [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck2.gif[0m  jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+Home.css    Results.css   Tupac.css            clone.js                      [01;34mimages[0m     jquery.js            nicepage.js   [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ cd st[K[K[K[K[Kls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[01;35mduck.gif[0m   [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck2.gif[0m  jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+Home.css    Results.css   Tupac.css            clone.js                      [01;34mimages[0m     jquery.js            nicepage.js   [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[01;35mduck.gif[0m   [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck2.gif[0m  jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+Home.css    Results.css   Tupac.css            clone.js                      [01;34mimages[0m     jquery.js            nicepage.js   [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+ Eminem.css     Project.css           Tupac.css                     [0m[00;36m'demo_output_2021-07-23 04:34:41.984278.wav'[0m   [01;34mimages[0m                [01;35mloader.gif[0m         nicepage_new.js
+ [00;36mEminem.wav[0m     Results.css           Tyler-the-Creator.css         [00;36m'demo_output_2021-07-23 04:34:41.990027.wav'[0m   [01;34mimages_new[0m            nicepage.css       [01;35mpuppy.jpg[0m
+ Home.css       Terrence_term.term    Write-your-story-with-AI.css   [01;35mduck.gif[0m                                      jquery-1.9.1.min.js   nicepage.js        text_gen.js
+ Overview.css   [00;36mTrump_generated.wav[0m   clone.js                       [01;35mduck2.gif[0m                                     jquery.js             nicepage_new.css   [00;36mtrump11.wav[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+ Eminem.css     Project.css           Tupac.css                     [0m[00;36m'demo_output_2021-07-23 04:34:41.984278.wav'[0m   [01;34mimages[0m                [01;35mloader.gif[0m         nicepage_new.js
+ [00;36mEminem.wav[0m     Results.css           Tyler-the-Creator.css         [00;36m'demo_output_2021-07-23 04:34:41.990027.wav'[0m   [01;34mimages_new[0m            nicepage.css       [01;35mpuppy.jpg[0m
+ Home.css       Terrence_term.term    Write-your-story-with-AI.css   [01;35mduck.gif[0m                                      jquery-1.9.1.min.js   nicepage.js        text_gen.js
+ Overview.css   [00;36mTrump_generated.wav[0m   clone.js                       [01;35mduck2.gif[0m                                     jquery.js             nicepage_new.css   [00;36mtrump11.wav[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ re[Km demo_output_2021-07-23 04:34:41.984278.wav
+rm: cannot remove 'demo_output_2021-07-23': No such file or directory
+rm: cannot remove '04:34:41.984278.wav': No such file or directory
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output_2021-07-23\ 04\:34\:41.9
+rm: cannot remove 'demo_output_2021-07-23 04:34:41.9': No such file or directory
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output_2021-07-23\ 04\:34\:41.984278.wav 
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output_2021-07-23\ 04\:34\:41.990027.wav 
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[01;35mduck.gif[0m   [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck2.gif[0m  jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+Home.css    Results.css   Tupac.css            clone.js                      [01;34mimages[0m     jquery.js            nicepage.js   [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[00;36mdemo_output.wav[0m  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck.gif[0m         [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Home.css    Results.css   Tupac.css            clone.js                      [01;35mduck2.gif[0m        jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[01;35mduck.gif[0m   [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck2.gif[0m  jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+Home.css    Results.css   Tupac.css            clone.js                      [01;34mimages[0m     jquery.js            nicepage.js   [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ cl[K[Kclear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[00;36mdemo_output.wav[0m  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck.gif[0m         [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Home.css    Results.css   Tupac.css            clone.js                      [01;35mduck2.gif[0m        jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[01;35mduck.gif[0m   [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck2.gif[0m  jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+Home.css    Results.css   Tupac.css            clone.js                      [01;34mimages[0m     jquery.js            nicepage.js   [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[00;36mdemo_output.wav[0m  [01;34mimages[0m               jquery.js     nicepage.js       [01;35mpuppy.jpg[0m
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck.gif[0m         [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+Home.css    Results.css   Tupac.css            clone.js                      [01;35mduck2.gif[0m        jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ rm demo_output.wav
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ ls
+Eminem.css  Overview.css  Terrence_term.term   Tyler-the-Creator.css         [0m[01;35mduck.gif[0m   [01;34mimages_new[0m           [01;35mloader.gif[0m    nicepage_new.css  text_gen.js
+[00;36mEminem.wav[0m  Project.css   [00;36mTrump_generated.wav[0m  Write-your-story-with-AI.css  [01;35mduck2.gif[0m  jquery-1.9.1.min.js  nicepage.css  nicepage_new.js   [00;36mtrump11.wav[0m
+Home.css    Results.css   Tupac.css            clone.js                      [01;34mimages[0m     jquery.js            nicepage.js   [01;35mpuppy.jpg[0m
+(base) ]0;~/nlp-writer-scaffold-main/app/static[01;34m~/nlp-writer-scaffold-main/app/static[00m$ 

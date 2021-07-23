@@ -1,0 +1,28 @@
+<!-- if you need to serve a static file, this is what you need to do. -->
+<h2>
+    Hi, hello from {{name}}!
+</h2>
+<p>{{generated}}</p>
+<img src={{ url_for( 'static', filename='puppy.jpg' ) }}>
+
+ <!-- Form -->
+    <div class="container">
+      <form action="/send" method="POST">
+        <label for="Prompt">Enter your prompt of lyric </label>
+        <br />
+        <input
+          type="text"
+          placeholder="Lyric"
+          class="u-full-width"
+          name="prompt"
+        />
+        <br />
+<input type="submit" value="Generate clone voice" id="calc_btn<strong></strong>" />
+<br />
+<br />
+<br />
+<audio controls>
+  <source src="{{ url_for('static', filename='Trump_generated.wav')}}" type="audio/mpeg"><div style='text-align:justify'></div>
+Your browser does not support the audio element.
+</audio>
+        

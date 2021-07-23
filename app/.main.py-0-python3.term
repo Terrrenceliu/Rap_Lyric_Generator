@@ -1,0 +1,81 @@
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> ```
+  File "<stdin>", line 1
+    ```
+    ^
+SyntaxError: invalid syntax
+>>> pip3 install torch
+  File "<stdin>", line 1
+    pip3 install torch
+         ^
+SyntaxError: invalid syntax
+>>> ```pip3 install torch
+  File "<stdin>", line 1
+    ```pip3 install torch
+    ^
+SyntaxError: invalid syntax
+>>> [K>>> [K>>> [K>>> [K>>> python3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> [K>>> b[Kpython3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> main.pyu[K
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'main' is not defined
+>>> python3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> python[K>>> python3 [Kmain.py[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmainn[K.poy[K[Ky
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'main' is not defined
+>>> python main.,[Kpy
+  File "<stdin>", line 1
+    python main.py
+           ^
+SyntaxError: invalid syntax
+>>> python [K[K[K[K[K[K[Kpython3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> main[K[K[K[KePython 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> python3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> 
+KeyboardInterrupt
+>>> [K>>> [K>>> pu[Kytho[Kon [K3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> python3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> python3 main
+  File "<stdin>", line 1
+    python3 main
+            ^
+SyntaxError: invalid syntax
+>>> (base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ reset
+c[?1000l[?25h(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ 

@@ -1,0 +1,177 @@
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+ [0m[01;34mReal-Time-Voice-Cloning-master[0m      [01;34m'project website'[0m                   [01;34mtemplates[0m            utils.py
+ [01;34mReal-Time-Voice-Cloning-master_old[0m  [01;31m'project website.zip'[0m               test.py              uwsgi.ini
+ Terrence_term.term                   pytorch_model.bin.partial-upload   [01;34mtoolbox[0m              [01;34mvocoder[0m
+ [01;31mVoice_Clone_new.zip[0m                  requirements.txt                   [01;34mtrained_model[0m        weights_location
+ [01;34m__pycache__[0m                          simple_site.py                     [01;31mtrained_model.zip[0m    wsgi.py
+ config.json                          st_app.py                          [01;34mtrained_models[0m
+ [01;34mencoder[0m                              [01;34mstatic[0m                             [01;31mtrained_models.zip[0m
+ main.py                              [01;34msynthesizer[0m                        [01;34mutils[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ cd Real-Time-Voice-Cloning-master
+(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ ls
+LICENSE.txt         demo_cli_original.py   [0m[01;34msamples[0m                           [01;34mtoolbox[0m
+README.md           demo_toolbox.py        [01;34msynthesizer[0m                       [00;36mtrump11.wav[0m
+Terrence_term.term  [01;34mencoder[0m                synthesizer_preprocess_audio.py   [01;34mutils[0m
+[00;36mTrack4.m4a[0m          encoder_preprocess.py  synthesizer_preprocess_embeds.py  [01;34mvocoder[0m
+[01;34m__pycache__[0m         encoder_train.py       synthesizer_train.py              vocoder_preprocess.py
+demo_cli.py         requirements.txt       test.py                           vocoder_train.py
+(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ cd ../
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+ [0m[01;34mReal-Time-Voice-Cloning-master[0m      [01;34m'project website'[0m                   [01;34mtemplates[0m            utils.py
+ [01;34mReal-Time-Voice-Cloning-master_old[0m  [01;31m'project website.zip'[0m               test.py              uwsgi.ini
+ Terrence_term.term                   pytorch_model.bin.partial-upload   [01;34mtoolbox[0m              [01;34mvocoder[0m
+ [01;31mVoice_Clone_new.zip[0m                  requirements.txt                   [01;34mtrained_model[0m        weights_location
+ [01;34m__pycache__[0m                          simple_site.py                     [01;31mtrained_model.zip[0m    wsgi.py
+ config.json                          st_app.py                          [01;34mtrained_models[0m
+ [01;34mencoder[0m                              [01;34mstatic[0m                             [01;31mtrained_models.zip[0m
+ main.py                              [01;34msynthesizer[0m                        [01;34mutils[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+ [0m[01;34mReal-Time-Voice-Cloning-master[0m      [01;34m'project website'[0m                   [01;34mtemplates[0m            utils.py
+ [01;34mReal-Time-Voice-Cloning-master_old[0m  [01;31m'project website.zip'[0m               test.py              uwsgi.ini
+ Terrence_term.term                   pytorch_model.bin.partial-upload   [01;34mtoolbox[0m              [01;34mvocoder[0m
+ [01;31mVoice_Clone_new.zip[0m                  requirements.txt                   [01;34mtrained_model[0m        weights_location
+ [01;34m__pycache__[0m                          simple_site.py                     [01;31mtrained_model.zip[0m    wsgi.py
+ config.json                          st_app.py                          [01;34mtrained_models[0m
+ [01;34mencoder[0m                              [01;34mstatic[0m                             [01;31mtrained_models.zip[0m
+ main.py                              [01;34msynthesizer[0m                        [01;34mutils[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ python test.py
+Traceback (most recent call last):
+  File "test.py", line 3, in <module>
+    from demo_cli import main
+  File "/projects/00817c4c-2234-4da4-8978-4e3c95b77bdd/nlp-writer-scaffold-main/app/./Real-Time-Voice-Cloning-master/demo_cli.py", line 2, in <module>
+    from utils.argutils import print_args
+ModuleNotFoundError: No module named 'utils.argutils'; 'utils' is not a package
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ cd[K[Kls
+ [0m[01;34mReal-Time-Voice-Cloning-master[0m      [01;34m'project website'[0m                   [01;34mtemplates[0m            utils.py
+ [01;34mReal-Time-Voice-Cloning-master_old[0m  [01;31m'project website.zip'[0m               test.py              uwsgi.ini
+ Terrence_term.term                   pytorch_model.bin.partial-upload   [01;34mtoolbox[0m              [01;34mvocoder[0m
+ [01;31mVoice_Clone_new.zip[0m                  requirements.txt                   [01;34mtrained_model[0m        weights_location
+ [01;34m__pycache__[0m                          simple_site.py                     [01;31mtrained_model.zip[0m    wsgi.py
+ config.json                          st_app.py                          [01;34mtrained_models[0m
+ [01;34mencoder[0m                              [01;34mstatic[0m                             [01;31mtrained_models.zip[0m
+ main.py                              [01;34msynthesizer[0m                        [01;34mutils[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ cd [K Realtim[K[K[K-Time-Voice-Cloning-master
+(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ ls
+LICENSE.txt         demo_cli_original.py   [0m[01;34msamples[0m                           [01;34mtoolbox[0m
+README.md           demo_toolbox.py        [01;34msynthesizer[0m                       [00;36mtrump11.wav[0m
+Terrence_term.term  [01;34mencoder[0m                synthesizer_preprocess_audio.py   [01;34mutils[0m
+[00;36mTrack4.m4a[0m          encoder_preprocess.py  synthesizer_preprocess_embeds.py  [01;34mvocoder[0m
+[01;34m__pycache__[0m         encoder_train.py       synthesizer_train.py              vocoder_preprocess.py
+demo_cli.py         requirements.txt       test.py                           vocoder_train.py
+(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ python test.py
+Loaded encoder "pretrained.pt" trained to step 1564501
+Synthesizer using device: cpu
+Building Wave-RNN
+Trainable Parameters: 4.481M
+Loading model weights at vocoder/saved_models/pretrained/pretrained.pt
+Trainable Parameters: 30.870M
+Loaded synthesizer "pretrained.pt" trained to step 295000
++----------+---+
+| Tacotron | r |
++----------+---+
+|   295k   | 2 |
++----------+---+
+ 
+
+| Generating 1/1
+
+
+Done.
+
+
+| Generating 1/1
+
+
+Done.
+
+{| █░░░░░░░░░░░░░░░ 0/28800 | Batch Size: 3 | Gen Rate: 0.0kHz | }{| █░░░░░░░░░░░░░░░ 300/28800 | Batch Size: 3 | Gen Rate: 0.3kHz | }{| █░░░░░░░░░░░░░░░ 600/28800 | Batch Size: 3 | Gen Rate: 0.6kHz | }{| █░░░░░░░░░░░░░░░ 900/28800 | Batch Size: 3 | Gen Rate: 0.8kHz | }{| █░░░░░░░░░░░░░░░ 1200/28800 | Batch Size: 3 | Gen Rate: 0.9kHz | }{| █░░░░░░░░░░░░░░░ 1500/28800 | Batch Size: 3 | Gen Rate: 1.1kHz | }{| ██░░░░░░░░░░░░░░ 1800/28800 | Batch Size: 3 | Gen Rate: 1.2kHz | }{| ██░░░░░░░░░░░░░░ 2100/28800 | Batch Size: 3 | Gen Rate: 1.3kHz | }{| ██░░░░░░░░░░░░░░ 2400/28800 | Batch Size: 3 | Gen Rate: 1.3kHz | }{| ██░░░░░░░░░░░░░░ 2700/28800 | Batch Size: 3 | Gen Rate: 1.3kHz | }{| ██░░░░░░░░░░░░░░ 3000/28800 | Batch Size: 3 | Gen Rate: 1.4kHz | }{| ██░░░░░░░░░░░░░░ 3300/28800 | Batch Size: 3 | Gen Rate: 1.5kHz | }{| ███░░░░░░░░░░░░░ 3600/28800 | Batch Size: 3 | Gen Rate: 1.5kHz | }{| ███░░░░░░░░░░░░░ 3900/28800 | Batch Size: 3 | Gen Rate: 1.5kHz | }{| ███░░░░░░░░░░░░░ 4200/28800 | Batch Size: 3 | Gen Rate: 1.5kHz | }{| ███░░░░░░░░░░░░░ 4500/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ███░░░░░░░░░░░░░ 4800/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ███░░░░░░░░░░░░░ 5100/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ████░░░░░░░░░░░░ 5400/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ████░░░░░░░░░░░░ 5700/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| ████░░░░░░░░░░░░ 6000/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| ████░░░░░░░░░░░░ 6300/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ████░░░░░░░░░░░░ 6600/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ████░░░░░░░░░░░░ 6900/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| █████░░░░░░░░░░░ 7200/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| █████░░░░░░░░░░░ 7500/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| █████░░░░░░░░░░░ 7800/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| █████░░░░░░░░░░░ 8100/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| █████░░░░░░░░░░░ 8400/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| █████░░░░░░░░░░░ 8700/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 9000/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| ██████░░░░░░░░░░ 9300/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 9600/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 9900/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 10200/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 10500/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ███████░░░░░░░░░ 10800/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ███████░░░░░░░░░ 11100/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ███████░░░░░░░░░ 11400/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ███████░░░░░░░░░ 11700/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ███████░░░░░░░░░ 12000/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ███████░░░░░░░░░ 12300/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 12600/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 12900/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 13200/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 13500/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 13800/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 14100/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 14400/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 14700/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 15000/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 15300/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 15600/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 15900/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████████░░░░░░ 16200/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████████░░░░░░ 16500/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████████░░░░░░ 16800/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████████░░░░░░ 17100/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████░░░░░░ 17400/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████░░░░░░ 17700/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 18000/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 18300/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 18600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 18900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 19200/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████████░░░░░ 19500/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████████░░░░ 19800/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████████░░░░ 20100/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████████░░░░ 20400/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████████░░░░ 20700/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████████░░░░ 21000/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████░░░░ 21300/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 21600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 21900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 22200/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 22500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 22800/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████████░░░ 23100/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 23400/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 23700/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24000/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24300/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 25200/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 25500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 25800/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 26100/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 26400/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 26700/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27000/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27300/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 28200/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 28500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ cs ../[K[K[K[K[K[Kls
+LICENSE.txt         [0m[01;34m__pycache__[0m            encoder_train.py                 synthesizer_preprocess_embeds.py
+README.md           demo_cli_original.py   requirements.txt                 synthesizer_train.py
+Terrence_term.term  demo_toolbox.py        [01;34msamples[0m                          vocoder_preprocess.py
+[00;36mTrack4.m4a[0m          encoder_preprocess.py  synthesizer_preprocess_audio.py  vocoder_train.py
+(base) ]0;~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[01;34m~/nlp-writer-scaffold-main/app/Real-Time-Voice-Cloning-master[00m$ cd ../
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  [01;34mencoder[0m           [01;34mstatic[0m       [01;34mtoolbox[0m         [01;34mutils[0m      weights_location
+Terrence_term.term              main.py           [01;34msynthesizer[0m  [01;34mtrained_model[0m   utils.py   wsgi.py
+[01;34m__pycache__[0m                     requirements.txt  [01;34mtemplates[0m    [01;34mtrained_models[0m  uwsgi.ini
+demo_cli.py                     st_app.py         test.py      [00;36mtrump11.wav[0m     [01;34mvocoder[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  [01;34mencoder[0m           [01;34mstatic[0m       [01;34mtoolbox[0m         [01;34mutils[0m      weights_location
+Terrence_term.term              main.py           [01;34msynthesizer[0m  [01;34mtrained_model[0m   utils.py   wsgi.py
+[01;34m__pycache__[0m                     requirements.txt  [01;34mtemplates[0m    [01;34mtrained_models[0m  uwsgi.ini
+demo_cli.py                     st_app.py         test.py      [00;36mtrump11.wav[0m     [01;34mvocoder[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ python test.py
+Loaded encoder "pretrained.pt" trained to step 1564501
+Synthesizer using device: cpu
+Building Wave-RNN
+Trainable Parameters: 4.481M
+Loading model weights at vocoder/saved_models/pretrained/pretrained.pt
+Trainable Parameters: 30.870M
+Loaded synthesizer "pretrained.pt" trained to step 295000
++----------+---+
+| Tacotron | r |
++----------+---+
+|   295k   | 2 |
++----------+---+
+ 
+
+| Generating 1/1
+
+
+Done.
+
+
+| Generating 1/1
+
+
+Done.
+
+{| █░░░░░░░░░░░░░░░ 0/28800 | Batch Size: 3 | Gen Rate: 0.0kHz | }{| █░░░░░░░░░░░░░░░ 300/28800 | Batch Size: 3 | Gen Rate: 0.4kHz | }{| █░░░░░░░░░░░░░░░ 600/28800 | Batch Size: 3 | Gen Rate: 0.6kHz | }{| █░░░░░░░░░░░░░░░ 900/28800 | Batch Size: 3 | Gen Rate: 0.8kHz | }{| █░░░░░░░░░░░░░░░ 1200/28800 | Batch Size: 3 | Gen Rate: 1.0kHz | }{| █░░░░░░░░░░░░░░░ 1500/28800 | Batch Size: 3 | Gen Rate: 1.1kHz | }{| ██░░░░░░░░░░░░░░ 1800/28800 | Batch Size: 3 | Gen Rate: 1.2kHz | }{| ██░░░░░░░░░░░░░░ 2100/28800 | Batch Size: 3 | Gen Rate: 1.3kHz | }{| ██░░░░░░░░░░░░░░ 2400/28800 | Batch Size: 3 | Gen Rate: 1.3kHz | }{| ██░░░░░░░░░░░░░░ 2700/28800 | Batch Size: 3 | Gen Rate: 1.4kHz | }{| ██░░░░░░░░░░░░░░ 3000/28800 | Batch Size: 3 | Gen Rate: 1.5kHz | }{| ██░░░░░░░░░░░░░░ 3300/28800 | Batch Size: 3 | Gen Rate: 1.5kHz | }{| ███░░░░░░░░░░░░░ 3600/28800 | Batch Size: 3 | Gen Rate: 1.5kHz | }{| ███░░░░░░░░░░░░░ 3900/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ███░░░░░░░░░░░░░ 4200/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ███░░░░░░░░░░░░░ 4500/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ███░░░░░░░░░░░░░ 4800/28800 | Batch Size: 3 | Gen Rate: 1.6kHz | }{| ███░░░░░░░░░░░░░ 5100/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| ████░░░░░░░░░░░░ 5400/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| ████░░░░░░░░░░░░ 5700/28800 | Batch Size: 3 | Gen Rate: 1.7kHz | }{| ████░░░░░░░░░░░░ 6000/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ████░░░░░░░░░░░░ 6300/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ████░░░░░░░░░░░░ 6600/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ████░░░░░░░░░░░░ 6900/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| █████░░░░░░░░░░░ 7200/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| █████░░░░░░░░░░░ 7500/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| █████░░░░░░░░░░░ 7800/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| █████░░░░░░░░░░░ 8100/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| █████░░░░░░░░░░░ 8400/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████░░░░░░░░░░░ 8700/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████░░░░░░░░░░ 9000/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████░░░░░░░░░░ 9300/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████░░░░░░░░░░ 9600/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 9900/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 10200/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ██████░░░░░░░░░░ 10500/28800 | Batch Size: 3 | Gen Rate: 1.8kHz | }{| ███████░░░░░░░░░ 10800/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████░░░░░░░░░ 11100/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████░░░░░░░░░ 11400/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████░░░░░░░░░ 11700/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████░░░░░░░░░ 12000/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████░░░░░░░░░ 12300/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 12600/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 12900/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 13200/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 13500/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 13800/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ████████░░░░░░░░ 14100/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 14400/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 14700/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 15000/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 15300/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| █████████░░░░░░░ 15600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████░░░░░░░ 15900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████░░░░░░ 16200/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ██████████░░░░░░ 16500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████░░░░░░ 16800/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████░░░░░░ 17100/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████░░░░░░ 17400/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████░░░░░░ 17700/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 18000/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████████░░░░░ 18300/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████████░░░░░ 18600/28800 | Batch Size: 3 | Gen Rate: 1.9kHz | }{| ███████████░░░░░ 18900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 19200/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████░░░░░ 19500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████░░░░ 19800/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████░░░░ 20100/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████░░░░ 20400/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████░░░░ 20700/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████░░░░ 21000/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████░░░░ 21300/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 21600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 21900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 22200/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 22500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 22800/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| █████████████░░░ 23100/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 23400/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 23700/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24000/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24300/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ██████████████░░ 24900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 25200/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 25500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 25800/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 26100/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 26400/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ███████████████░ 26700/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27000/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27300/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27600/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 27900/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 28200/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }{| ████████████████ 28500/28800 | Batch Size: 3 | Gen Rate: 2.0kHz | }(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  [00;36mdemo_output.wav[0m   st_app.py    test.py         [00;36mtrump11.wav[0m  [01;34mvocoder[0m
+Terrence_term.term              [01;34mencoder[0m           [01;34mstatic[0m       [01;34mtoolbox[0m         [01;34mutils[0m        weights_location
+[01;34m__pycache__[0m                     main.py           [01;34msynthesizer[0m  [01;34mtrained_model[0m   utils.py     wsgi.py
+demo_cli.py                     requirements.txt  [01;34mtemplates[0m    [01;34mtrained_models[0m  uwsgi.ini
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[01;34mReal-Time-Voice-Cloning-master[0m  main.py           test.py         utils_main.py
+Terrence_term.term              requirements.txt  [01;34mtoolbox[0m         uwsgi.ini
+[01;34m__pycache__[0m                     st_app.py         [01;34mtrained_model[0m   [01;34mvocoder[0m
+demo_cli.py                     [01;34mstatic[0m            [01;34mtrained_models[0m  weights_location
+[00;36mdemo_output.wav[0m                 [01;34msynthesizer[0m       [00;36mtrump11.wav[0m     wsgi.py
+[01;34mencoder[0m                         [01;34mtemplates[0m         [01;34mutils[0m
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ (base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ clear
+[H[J(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ ls
+[0m[00;36mEminem.wav[0m                      demo_cli.py       st_app.py    test.py         [00;36mtrump11.wav[0m    [01;34mvocoder[0m
+[01;34mReal-Time-Voice-Cloning-master[0m  [01;34mencoder[0m           [01;34mstatic[0m       [01;34mtoolbox[0m         [01;34mutils[0m          weights_location
+Terrence_term.term              main.py           [01;34msynthesizer[0m  [01;34mtrained_model[0m   utils_main.py  wsgi.py
+[01;34m__pycache__[0m                     requirements.txt  [01;34mtemplates[0m    [01;34mtrained_models[0m  uwsgi.ini
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ python test.py
+Loaded encoder "pretrained.pt" trained to step 1564501
+Synthesizer using device: cpu
+Building Wave-RNN
+Trainable Parameters: 4.481M
+Loading model weights at vocoder/saved_models/pretrained/pretrained.pt
+Trainable Parameters: 30.870M
+Loaded synthesizer "pretrained.pt" trained to step 295000
++----------+---+
+| Tacotron | r |
++----------+---+
+|   295k   | 2 |
++----------+---+
+ 
+
+| Generating 1/1
+
+
+Done.
+
+/projects/00817c4c-2234-4da4-8978-4e3c95b77bdd/miniconda3/lib/python3.8/site-packages/librosa/core/audio.py:165: UserWarning: PySoundFile failed. Trying audioread instead.
+  warnings.warn("PySoundFile failed. Trying audioread instead.")
+Caught exception: NoBackendError()
+Restarting
+
+(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ [K(base) ]0;~/nlp-writer-scaffold-main/app[01;34m~/nlp-writer-scaffold-main/app[00m$ 
